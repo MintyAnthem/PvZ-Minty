@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 7720794503792353424}
   - component: {fileID: 2927303588277536182}
   - component: {fileID: 7264047169838917635}
+  - component: {fileID: 4569668852136913665}
   m_Layer: 5
   m_Name: SeedPacket
   m_TagString: Untagged
@@ -237,7 +238,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7364248302298676132}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -289,3 +290,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4569668852136913665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364248302298676132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73de5972207a15b4082f2783609b8beb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  sunCounter: {fileID: 0}
+  plantStats: {fileID: 0}
+  packetImage: {fileID: 3230838003631316916}
+  packetCost: {fileID: 3088337270430510901}

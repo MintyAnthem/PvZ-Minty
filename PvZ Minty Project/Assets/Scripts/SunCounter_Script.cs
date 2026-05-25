@@ -1,16 +1,21 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class SunCounter_Script : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public int sunAmount;
+    public TextMeshProUGUI sunAmountDisplay;
+
+    void Awake()
     {
-        
+        sunAmount = 0;
+        sunAmountDisplay.text = sunAmount.ToString();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ChangeSun(int sunChange)
     {
-        
+        sunAmount += sunChange;
+        sunAmountDisplay.text = sunAmount.ToString();
     }
 }
