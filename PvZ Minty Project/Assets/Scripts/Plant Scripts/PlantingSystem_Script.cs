@@ -30,6 +30,7 @@ public class PlantingSystem_Script : MonoBehaviour
         {
             selectMapObject.SetActive(true);
             mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+
         }
         else if (plantStats == null)
         {
