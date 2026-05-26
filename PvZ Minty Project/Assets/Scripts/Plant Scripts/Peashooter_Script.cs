@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class Peashooter_Script : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject projectileObject;
+    public Transform shootPoint;
+    public float shootDelay;
+    bool shootLoop;
+
     void Start()
     {
-        
+        InvokeRepeating("Shoot", shootDelay, shootDelay);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Shoot()
     {
-        
+        Instantiate(projectileObject, shootPoint.position, Quaternion.identity);
     }
 }
