@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca433d5682789a409630eb99b0433e2, type: 3}
   m_Name: Sunflower_Stats
   m_EditorClassIdentifier: Assembly-CSharp::Plant_ScriptableObject
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: -3051336682133065528, guid: 45d70832c7e6c4f468a648169a328fc7, type: 3}
   plantName: Sunflower
   sunCost: 50
+  plantReload: 5
   plantObject: {fileID: 0}

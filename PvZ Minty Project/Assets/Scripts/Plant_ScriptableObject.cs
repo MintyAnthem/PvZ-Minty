@@ -6,5 +6,6 @@ public class Plant_ScriptableObject : ScriptableObject
     public Sprite plantSprite;
     public string plantName;
     public int sunCost;
+    public float plantReload;
     public GameObject plantObject;
 }
