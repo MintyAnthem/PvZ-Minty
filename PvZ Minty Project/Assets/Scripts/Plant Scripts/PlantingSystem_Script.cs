@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class PlantingSystem_Script : MonoBehaviour
 {
 
-    public Plant_ScriptableObject plantStats;
+    /*public Plant_ScriptableObject plantStats;
     public PreviewPlant_Script previewPlant;
 
     public GameObject selectMapObject;
@@ -37,5 +37,5 @@ public class PlantingSystem_Script : MonoBehaviour
             selectMapObject.SetActive(false);
         }
 
-    }
+    } */
 }

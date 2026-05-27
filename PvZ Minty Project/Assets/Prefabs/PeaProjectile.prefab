@@ -171,3 +171,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   projectileBody: {fileID: 8593014141197393718}
   projectileSpeed: 5
+  projectileDamage: -10
+  zombieScript: {fileID: 0}
