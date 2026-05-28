@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca433d5682789a409630eb99b0433e2, type: 3}
+  m_Name: Aspearagus_Stats
+  m_EditorClassIdentifier: Assembly-CSharp::Plant_ScriptableObject
+  plantSprite: {fileID: 5977483497308567244, guid: 4c5ca57742644164f935bd37b066cc20, type: 3}
+  plantName: Aspearagus
+  sunCost: 200
+  plantReload: 7
+  plantObject: {fileID: 5985777524824015909, guid: fc9e823b4efd76541affdb7b2fe8c7b2, type: 3}

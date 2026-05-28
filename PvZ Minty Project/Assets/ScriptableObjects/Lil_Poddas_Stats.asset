@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca433d5682789a409630eb99b0433e2, type: 3}
+  m_Name: Lil_Poddas_Stats
+  m_EditorClassIdentifier: Assembly-CSharp::Plant_ScriptableObject
+  plantSprite: {fileID: 3238620939224130485, guid: 63403edb8aee750439c1a942077c1ad6, type: 3}
+  plantName: Lil Poddas
+  sunCost: 100
+  plantReload: 5
+  plantObject: {fileID: 492522644096363001, guid: 486eaa6c6d9fdf448bfc7bd3a49efd45, type: 3}
