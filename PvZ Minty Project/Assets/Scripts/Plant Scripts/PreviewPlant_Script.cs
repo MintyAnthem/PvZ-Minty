@@ -1,8 +1,7 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
-public class PreviewPlant_Script : MonoBehaviour, IPointerDownHandler
+public class PreviewPlant_Script : MonoBehaviour
 {
     public Plant_ScriptableObject currentPlant;
     public SpriteRenderer previewRenderer;
@@ -19,18 +18,9 @@ public class PreviewPlant_Script : MonoBehaviour, IPointerDownHandler
         previewRenderer.sprite = currentPlant.plantSprite;
     }
 
-    public void OnPointerDown(PointerEventData pointerEventData)
+    public void EmptyPlant()
     {
-        if (currentPlant != null)
-        {
-            Debug.Log("Successfully Placed");
-            Instantiate(currentPlant.plantObject);
-            currentPlant = null;
-        }
-        else if (currentPlant == null)
-        {
-            Debug.Log("Nothing To Place");
-        }
-
+        currentPlant = null;
+        previewRenderer.sprite = null;
     }
 }
