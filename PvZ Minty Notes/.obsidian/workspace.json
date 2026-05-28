@@ -25,14 +25,17 @@
             "id": "03a7d069d7f8f113",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "2D Prefab Shooting Mechanic.md",
-                "mode": "source",
-                "source": false
+                "file": "Plant Ideas/Plant Ideas Gallery.canvas",
+                "viewState": {
+                  "x": 459.80243170330505,
+                  "y": 3782.3513573506298,
+                  "zoom": -1.3333333333333333
+                }
               },
-              "icon": "lucide-file",
-              "title": "2D Prefab Shooting Mechanic"
+              "icon": "lucide-layout-dashboard",
+              "title": "Plant Ideas Gallery"
             }
           }
         ],
@@ -93,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "1d39f1a73b893d76",
@@ -200,8 +203,22 @@
   },
   "active": "03a7d069d7f8f113",
   "lastOpenFiles": [
-    "PvZ Minty Roadmap.md",
+    "Attachments/96px-SnowdropH.webp",
+    "Attachments/96px-Button_MushroomH.webp",
+    "Attachments/96px-Small-NutH.webp",
+    "Attachments/Ghost_Pepper2C.webp",
+    "Attachments/Oxygen_Algae2.webp",
+    "Attachments/Eggplant_Ninja2.webp",
+    "Attachments/Oily_Olive2.webp",
+    "Attachments/Maypop_Mechanic2.webp",
+    "Attachments/Rotobaga2C.webp",
+    "Attachments/Resistant_Radish2.webp",
+    "Attachments/Cactus2C.webp",
+    "Plant Ideas/Untitled.md",
+    "Plant Ideas/Plant Ideas Gallery.canvas",
     "2D Prefab Shooting Mechanic.md",
+    "Plant Ideas",
+    "PvZ Minty Roadmap.md",
     "2D Grid Placement System.md",
     "Welcome.md",
     "Attachments"
