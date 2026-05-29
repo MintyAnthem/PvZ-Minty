@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cd548578edc3ac347bc94a62e3fe9b02
+guid: fc2f5041b02772645823776c18cd4d65
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4380636775804093680
-    second: Aloe_Minty_0
+      213: -476587458234352960
+    second: Dandelion_Minty_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Aloe_Minty_0
+      name: Dandelion_Minty_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2
-        width: 114
-        height: 109
+        x: 0
+        y: 0
+        width: 111
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f4c0df10f52bcc30800000000000000
-      internalID: 4380636775804093680
+      spriteID: 0caf8875b32d269f0800000000000000
+      internalID: -476587458234352960
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Aloe_Minty_0: 4380636775804093680
+      Dandelion_Minty_0: -476587458234352960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

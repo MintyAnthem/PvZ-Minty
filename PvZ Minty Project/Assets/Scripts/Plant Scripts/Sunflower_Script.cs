@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class Sunflower_Script : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject sunCounterObject;
+    public SunCounter_Script sunCounter;
+    public float generateDelay;
+
     void Start()
     {
-        
+        sunCounterObject = GameObject.Find("Sun Counter");
+        sunCounter = sunCounterObject.GetComponent<SunCounter_Script>();
+        InvokeRepeating("GenerateSun", generateDelay, generateDelay);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GenerateSun()
     {
-        
+        sunCounter.ChangeSun(25);
     }
 }
