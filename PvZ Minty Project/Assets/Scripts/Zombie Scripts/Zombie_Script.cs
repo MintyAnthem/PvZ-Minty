@@ -7,10 +7,12 @@ public class Zombie_Script : MonoBehaviour
     public int zombieHealth;
     public RaycastHit2D lineOfSight;
     public float sightLength;
+    public bool hasDetected;
     public LayerMask plantMask;
     public bool isWalking;
     public float attackDelay;
     public int zombieDamage;
+    public Plant_Script plantScript;
 
     void Start()
     {
@@ -35,11 +37,18 @@ public class Zombie_Script : MonoBehaviour
         lineOfSight = Physics2D.Raycast(transform.position, Vector2.left, sightLength, plantMask);
         Debug.DrawRay(transform.position, -Vector2.right * sightLength, Color.purple);
 
-        if (lineOfSight)
+        if (!hasDetected && lineOfSight)
         {
             isWalking = false;
-            //plantScript = hitInfo.GetComponent<Plant_Script>();
+            plantScript = lineOfSight.collider.GetComponent<Plant_Script>();
             InvokeRepeating("Attack", attackDelay, attackDelay);
+            hasDetected = true;
+        }
+        else if (hasDetected && !lineOfSight)
+        {
+            CancelInvoke("Attack");
+            hasDetected = false;
+            isWalking = true;
         }
     }
 
@@ -56,12 +65,6 @@ public class Zombie_Script : MonoBehaviour
     public void Attack()
     {
         Debug.Log("Attacking");
-        /*plantScript.ChangeHealth(zombieDamage);
-        if (plantScript = null)
-        {
-            CancelInvoke("Attack");
-            isWalking = true;
-        }
-        */
+        plantScript.ChangeHealth(zombieDamage);
     }
 }

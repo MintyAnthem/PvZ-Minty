@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ca433d5682789a409630eb99b0433e2, type: 3}
-  m_Name: Aloe_Stats
+  m_Name: Sunflower_Stats
   m_EditorClassIdentifier: Assembly-CSharp::Plant_ScriptableObject
-  plantSprite: {fileID: 4380636775804093680, guid: cd548578edc3ac347bc94a62e3fe9b02, type: 3}
-  plantName: Aloe
-  sunCost: 125
-  plantReload: 8
-  plantObject: {fileID: 8040769999992073798, guid: 2bbcf47af0aa25f4d829f231f84291c9, type: 3}
+  plantSprite: {fileID: -6003491660782373295, guid: f5652355f4335e34e9f50269b32b8c21, type: 3}
+  plantName: Sunflower
+  sunCost: 50
+  plantReload: 7.5
+  plantObject: {fileID: 8518367004092024389, guid: fc1fc985ebfd5a541af5d8268651f6d7, type: 3}
