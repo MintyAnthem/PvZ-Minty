@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Plants & Zombies Interactions.md",
+                "file": "Plants To-Do List/Lil Podda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plants & Zombies Interactions"
+              "title": "Lil Podda"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2D Grid Placement System.md",
+                "file": "Plants To-Do List/Lil Podda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2D Grid Placement System"
+              "title": "Backlinks for Lil Podda"
             }
           },
           {
@@ -200,18 +200,24 @@
   },
   "active": "03a7d069d7f8f113",
   "lastOpenFiles": [
-    "Plant Ideas/Plant Ideas Gallery.canvas",
+    "Plants To-Do List/Cherry Bomb.md",
+    "Plants To-Do List/Lil Podda.md",
+    "Plants To-Do List/Peashooter.md",
+    "Plants To-Do List/Sunflower.md",
+    "Plants To-Do List/Wallnut.md",
+    "Attachments/CherryBomb_Minty.png",
+    "Attachments/LilPoddaBarracks_Minty_3Poddas.png",
+    "Attachments/Wallnut_MintyV2.png",
+    "Attachments/Sunflower_MintyV2.png",
+    "Attachments/Peashooter_MintyV2.png",
     "Plants & Zombies Interactions.md",
+    "Plants To-Do List",
+    "Plant Ideas/Plant Ideas Gallery.canvas",
     "Attachments/96px-SnowdropH.webp",
     "Attachments/96px-Button_MushroomH.webp",
     "Attachments/96px-Small-NutH.webp",
     "Attachments/Ghost_Pepper2C.webp",
     "Attachments/Oxygen_Algae2.webp",
-    "Attachments/Eggplant_Ninja2.webp",
-    "Attachments/Oily_Olive2.webp",
-    "Attachments/Maypop_Mechanic2.webp",
-    "Attachments/Rotobaga2C.webp",
-    "Attachments/Resistant_Radish2.webp",
     "Plant Ideas/Untitled.md",
     "2D Prefab Shooting Mechanic.md",
     "Plant Ideas",
