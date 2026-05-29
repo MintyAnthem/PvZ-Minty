@@ -84,7 +84,6 @@ public class SeedPacket_Script : MonoBehaviour, IPointerDownHandler
         {
             Debug.Log("Failure");
         }
-
     }
 
     //Detect if clicks are no longer registering

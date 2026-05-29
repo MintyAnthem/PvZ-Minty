@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f8caf9a7c79c7f4f861687d7f78b89c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  plantHealth: 100
+  plantHealth: 50
   plantObject: {fileID: 4276970672796508304}
 --- !u!114 &501293256893249525
 MonoBehaviour:
