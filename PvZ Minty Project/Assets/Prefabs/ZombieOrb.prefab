@@ -173,6 +173,10 @@ MonoBehaviour:
   zombieBody: {fileID: 5695390385331187432}
   zombieSpeed: 0.25
   zombieHealth: 100
+  sightLength: 0.5
   plantMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
+  isWalking: 0
+  attackDelay: 2
+  zombieDamage: 0

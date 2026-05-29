@@ -6,6 +6,7 @@ public class Zombie_Script : MonoBehaviour
     public float zombieSpeed;
     public int zombieHealth;
     public RaycastHit2D lineOfSight;
+    public float sightLength;
     public LayerMask plantMask;
     public bool isWalking;
     public float attackDelay;
@@ -31,8 +32,8 @@ public class Zombie_Script : MonoBehaviour
 
     void Update()
     {
-        lineOfSight = Physics2D.Raycast(transform.position, Vector2.left, 0.25f, plantMask);
-        Debug.DrawRay(transform.position, -Vector2.right * 0.25f, Color.purple);
+        lineOfSight = Physics2D.Raycast(transform.position, Vector2.left, sightLength, plantMask);
+        Debug.DrawRay(transform.position, -Vector2.right * sightLength, Color.purple);
 
         if (lineOfSight)
         {
