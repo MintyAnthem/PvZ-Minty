@@ -25,17 +25,14 @@
             "id": "03a7d069d7f8f113",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Plant Ideas/Plant Ideas Gallery.canvas",
-                "viewState": {
-                  "x": 459.80243170330505,
-                  "y": 3782.3513573506298,
-                  "zoom": -1.3333333333333333
-                }
+                "file": "Plants & Zombies Interactions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Plant Ideas Gallery"
+              "icon": "lucide-file",
+              "title": "Plants & Zombies Interactions"
             }
           }
         ],
@@ -203,6 +200,8 @@
   },
   "active": "03a7d069d7f8f113",
   "lastOpenFiles": [
+    "Plant Ideas/Plant Ideas Gallery.canvas",
+    "Plants & Zombies Interactions.md",
     "Attachments/96px-SnowdropH.webp",
     "Attachments/96px-Button_MushroomH.webp",
     "Attachments/96px-Small-NutH.webp",
@@ -213,9 +212,7 @@
     "Attachments/Maypop_Mechanic2.webp",
     "Attachments/Rotobaga2C.webp",
     "Attachments/Resistant_Radish2.webp",
-    "Attachments/Cactus2C.webp",
     "Plant Ideas/Untitled.md",
-    "Plant Ideas/Plant Ideas Gallery.canvas",
     "2D Prefab Shooting Mechanic.md",
     "Plant Ideas",
     "PvZ Minty Roadmap.md",

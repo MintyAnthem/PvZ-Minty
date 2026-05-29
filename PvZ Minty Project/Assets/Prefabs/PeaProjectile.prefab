@@ -173,3 +173,6 @@ MonoBehaviour:
   projectileSpeed: 5
   projectileDamage: -10
   zombieScript: {fileID: 0}
+  projectileTarget:
+    serializedVersion: 2
+    m_Bits: 384

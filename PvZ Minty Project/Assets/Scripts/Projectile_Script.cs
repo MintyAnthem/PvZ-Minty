@@ -6,6 +6,7 @@ public class Projectile_Script : MonoBehaviour
     public float projectileSpeed;
     public int projectileDamage;
     public Zombie_Script zombieScript;
+    public LayerMask projectileTarget;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -15,13 +16,15 @@ public class Projectile_Script : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        zombieScript = hitInfo.GetComponent<Zombie_Script>();
-        if (zombieScript != null)
+        if ((projectileTarget.value & (1 << hitInfo.gameObject.layer)) != 0)
         {
-            zombieScript.ChangeHealth(projectileDamage);
+            zombieScript = hitInfo.GetComponent<Zombie_Script>();
+            if (zombieScript != null)
+            {
+                zombieScript.ChangeHealth(projectileDamage);
+            }
+            Destroy(gameObject);
+            Debug.Log(hitInfo.name);
         }
-
-        Destroy(gameObject);
-        Debug.Log(hitInfo.name);
     }
 }

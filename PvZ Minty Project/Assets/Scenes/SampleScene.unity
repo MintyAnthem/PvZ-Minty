@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 263770727}
   - component: {fileID: 263770726}
   - component: {fileID: 263770725}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Backwall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2085,6 +2085,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 198476456269894186, guid: 8ffd5c13e9776054284c0cc724a19299, type: 3}
+      propertyPath: m_Radius
+      value: 0.44411707
+      objectReference: {fileID: 0}
+    - target: {fileID: 198476456269894186, guid: 8ffd5c13e9776054284c0cc724a19299, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.01566124
+      objectReference: {fileID: 0}
     - target: {fileID: 4276970672796508304, guid: 8ffd5c13e9776054284c0cc724a19299, type: 3}
       propertyPath: m_Name
       value: Peashooter
@@ -4085,7 +4093,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3695293934915329068, guid: 2b0ab6a9158fd1e4eaec66f7b354dd24, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.77
+      value: -0.77
       objectReference: {fileID: 0}
     - target: {fileID: 3695293934915329068, guid: 2b0ab6a9158fd1e4eaec66f7b354dd24, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4126,6 +4134,18 @@ PrefabInstance:
     - target: {fileID: 4160480957914150489, guid: 2b0ab6a9158fd1e4eaec66f7b354dd24, type: 3}
       propertyPath: m_Name
       value: ZombieOrb
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160480957914150489, guid: 2b0ab6a9158fd1e4eaec66f7b354dd24, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7107152258621438011, guid: 2b0ab6a9158fd1e4eaec66f7b354dd24, type: 3}
+      propertyPath: attackDelay
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7107152258621438011, guid: 2b0ab6a9158fd1e4eaec66f7b354dd24, type: 3}
+      propertyPath: plantMask.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
