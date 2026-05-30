@@ -165,10 +165,10 @@ MonoBehaviour:
   onePodda: {fileID: 878709670526991278, guid: 966c2f49afe51884e9f9f230e4aaff1e, type: 3}
   twoPodda: {fileID: -7121855412268253546, guid: ebcb62f063280f04e81e104f83abb7e1, type: 3}
   threePodda: {fileID: -6769492151874114681, guid: d16e27429801aef4b8712ba17cbbdc79, type: 3}
-  firstPodda: {fileID: 0}
-  secondPodda: {fileID: 0}
-  thirdPodda: {fileID: 0}
-  deployPoint: {fileID: 0}
+  firstPodda: {fileID: 4952506264239786236, guid: f1daee534ca070f4e853cd982569d97c, type: 3}
+  secondPodda: {fileID: 6831668933143372377, guid: cf7cead1aa30aec48b7cc6fd8a9f37fe, type: 3}
+  thirdPodda: {fileID: 2008060578667429943, guid: b5874a9452ce6194d80545be78b84170, type: 3}
+  deployPoint: {fileID: 7881754886090130103}
   isCharging: 0
 --- !u!1 &4025313879873135725
 GameObject:
@@ -195,7 +195,7 @@ Transform:
   m_GameObject: {fileID: 4025313879873135725}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.459, y: -0.408, z: 0}
+  m_LocalPosition: {x: 0.5, y: -0.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
